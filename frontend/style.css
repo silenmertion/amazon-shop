@@ -2,9 +2,11 @@
   --white: #fff;
   --black: #000000;
   --dark-blue: #203040;
+  --dark-reviews: #444444;
   --hover-orange: #f08040;
   --card-top-line: #e0e0e0;
   --product-brand-color: #808080;
+  --star-gold: #ffc000;
 }
 
 * {
@@ -122,4 +124,15 @@ a:hover {
 .product-brand {
   font-size: 1.2rem;
   color: var(--product-brand-color);
+}
+
+/* Rating */
+.rating {
+  font-size: 1.8rem;
+  color: var(--star-gold);
+}
+
+.rating span:last-child {
+  font-size: 1.4rem;
+  color: var(--dark-reviews);
 }

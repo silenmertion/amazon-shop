@@ -1,7 +1,8 @@
-import Error404Screen from "./srceens/Error404screen.js";
-import HomeScreen from "./srceens/HomeScreen.js";
-import ProductScreen from "./srceens/ProductScreen.js";
-import { parceRequestUrl } from "./utils.js";
+import Error404Screen from "./srceens/Error404screen";
+import HomeScreen from "./srceens/HomeScreen";
+import ProductScreen from "./srceens/ProductScreen";
+import { parceRequestUrl } from "./utils";
+
 const routes = {
   "/": HomeScreen,
   "/product/:id": ProductScreen,
